@@ -1,23 +1,50 @@
-body{
+body {
   width: auto;
+  margin: 0 auto;
 }
+
 table {
-  
-    border-collapse: collapse;
-  }
-  
-  td {
-  padding:10px 20px;
+width: 400px;
+  border-collapse: collapse;
+}
+
+td {
+
   border-bottom: 1px solid rgba(126, 126, 126, 0.562);
   border-top: 1px solid rgba(126, 126, 126, 0.562);
-  }
+}
 
-  caption {
-    /* стили для заголовка таблицы */
-    caption-side: top;
-    text-align: center;
-    font-size: 30px;
-    border-width: bold;
-    margin: 15px 0;
-  }
-  
+.row-1 {
+  background-color: rgb(53, 53, 255);
+}
+
+.row-2 {
+
+}
+
+.row-3 {
+
+}
+
+.row-4 {
+
+}
+
+.row-5 {
+
+}
+
+.colored {
+  background-color: rgb(106, 103, 255);
+}
+
+.column-1 {
+text-align: left;
+}
+
+.column-2 {
+text-align: center;
+}
+.column-3{
+text-align: right;
+}
