@@ -1,21 +1,28 @@
 body {
   width: auto;
-  margin: 0 auto;
+  font-size: 20px;
 }
 
 table {
 width: 400px;
   border-collapse: collapse;
+  margin: 0 auto;
+  
 }
 
 td {
 
   border-bottom: 1px solid rgba(126, 126, 126, 0.562);
   border-top: 1px solid rgba(126, 126, 126, 0.562);
+  padding: 5px 10px;
 }
 
 .row-1 {
   background-color: rgb(53, 53, 255);
+  font-size: 25px;
+  color: white;
+  border: 1px solid black;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
 .row-2 {
@@ -23,7 +30,7 @@ td {
 }
 
 .row-3 {
-
+background-color: rgba(0, 255, 255, 0.3);
 }
 
 .row-4 {
@@ -31,7 +38,7 @@ td {
 }
 
 .row-5 {
-
+  background-color: rgba(0, 255, 255, 0.3);
 }
 
 .colored {
@@ -47,4 +54,7 @@ text-align: center;
 }
 .column-3{
 text-align: right;
+}
+.h1{
+  text-align: center;
 }
